@@ -1,0 +1,11 @@
+{
+    "name": "Phishing Site Detector",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "Final Deliverables/templates/index.html"
+    },
+    // "content_security_policy": "script-src 'self' http://127.0.0.1:2002/; object-src 'self'",
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "permissions": ["http://127.0.0.1:2002/"]
+}
